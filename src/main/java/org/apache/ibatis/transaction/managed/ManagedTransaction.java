@@ -52,7 +52,7 @@ public class ManagedTransaction implements Transaction {
     private Connection connection;
     /**
      * 是否关闭连接
-     *
+     * <p>
      * 这个属性是和 {@link org.apache.ibatis.transaction.jdbc.JdbcTransaction} 不同的
      */
     private final boolean closeConnection;
